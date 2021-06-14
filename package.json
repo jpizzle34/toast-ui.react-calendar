@@ -57,6 +57,6 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "tui-calendar": "^1.12.5"
+    "tui-calendar": "git+https://github.com/jpizzle34/tui.calendar"
   }
 }

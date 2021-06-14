@@ -2580,7 +2580,7 @@ __metadata:
     react-dom: ^16.7.0
     storybook: ^6.2.9
     style-loader: ^0.23.1
-    tui-calendar: ^1.12.5
+    tui-calendar: "git+https://github.com/jpizzle34/tui.calendar"
     tui-release-notes: "git+https://github.com/nhn/toast-ui.release-notes.git"
     webpack: ^4.29.0
     webpack-cli: ^3.2.1
@@ -13470,18 +13470,18 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tui-calendar@npm:^1.12.5":
+"tui-calendar@git+https://github.com/jpizzle34/tui.calendar":
   version: 1.13.0
-  resolution: "tui-calendar@npm:1.13.0"
+  resolution: "tui-calendar@https://github.com/jpizzle34/tui.calendar.git#commit=0915235ee36e96575d7fd5cf50f1359ff9dab2f1"
   dependencies:
-    tui-code-snippet: ^1.5.0
-    tui-date-picker: ^4.0.2
-    tui-time-picker: ^2.0.1
-  checksum: 94904359c8afb9f017536a6bce84f75e09bbe75555e710e840cc06de488983feb6d1204e728a2c7afd13582a07dc3353ebf24c6dae097ef986ec16eb744cc12d
+    tui-code-snippet: ^1.5.2
+    tui-date-picker: ^4.2.0
+    tui-time-picker: ^2.0.3
+  checksum: 86a710be50c87c73162eb2d230a8c8308de5182c3135d2535ffcbd10777d80ff537cb96f96f229de81f9249e4d056739ef97ab2f90715d6af0d01d5758072cb9
   languageName: node
   linkType: hard
 
-"tui-code-snippet@npm:^1.5.0":
+"tui-code-snippet@npm:^1.5.2":
   version: 1.5.2
   resolution: "tui-code-snippet@npm:1.5.2"
   checksum: f195c87ffa41d091af7cbc6fdb033085e0e2285ae625aded199d9c5c212c032027cbeb281addce66f3b992b4ac56c3d2239a6314804080c34f72f0a3774c6072
@@ -13495,7 +13495,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tui-date-picker@npm:^4.0.2":
+"tui-date-picker@npm:^4.2.0":
   version: 4.2.0
   resolution: "tui-date-picker@npm:4.2.0"
   dependencies:
@@ -13516,7 +13516,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tui-time-picker@npm:^2.0.1, tui-time-picker@npm:^2.0.3":
+"tui-time-picker@npm:^2.0.3":
   version: 2.0.3
   resolution: "tui-time-picker@npm:2.0.3"
   dependencies:
