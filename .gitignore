@@ -10,6 +10,9 @@ pids
 # Compiled files for DEV
 dist
 
+# Storybook static build
+storybook-static/
+
 # Dependency directory
 node_modules
 
